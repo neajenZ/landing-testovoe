@@ -25,6 +25,12 @@
     color: #F2F2F24D;
 }
 
+@media (max-width: 1120px) {
+    .body {
+        grid-gap: 60px;
+    }
+}
+
 @media (max-width: 425px) {
     .body {
         grid-gap: 49px;

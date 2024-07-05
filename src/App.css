@@ -187,6 +187,23 @@ img {
   }
 }
 
+@media (max-width: 1120px) {
+  .wrapper {
+    max-width: 650px;
+    grid-gap: 60px;
+  }
+  .intro-content h1 {
+    font-size: 62px;
+    line-height: 62px;
+  }
+}
+
+@media (max-width: 975px) {
+  .feedback-wrapper {
+    display: none;
+  }
+}
+
 @media (max-width: 425px) {
   .wrapper {
     grid-gap: 30px;
